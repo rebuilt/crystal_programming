@@ -6,7 +6,7 @@ def selection_sort(arr)
   end
 end
 
-list = (1..300000).to_a.reverse
+list = (1..30000).to_a.reverse
 
 selection_sort(list)
 p list[0...10]
